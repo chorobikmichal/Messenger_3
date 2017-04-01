@@ -1,0 +1,27 @@
+.h(text="View Program" size=2)
+.d()
+.t(text="<body background='bg.jpg'>")
+.n()
+.E(num="3" value="go back to the user menu")
+.E(num="" value="next")
+.E(num="2" value="previous")
+
+.n()
+.W( exe="./view.py $username $stream $next 0 0 $sort" val="username" val="sort" val="next" val="stream ")
+.G( var="choice" type="$_POST" nnn)
+.G( var="choice2" type="$_POST" ppp)
+
+.X( var="choice" type="$_POST" exe="" header="Location: view2.php? username=$username&stream=$stream&status=$status&next=$next&sort=$sort" )
+.X( var="choice2" type="$_POST" exe="" header="Location: view2.php? username=$username&stream=$stream&status=$status&next=$previous&sort=$sort" )
+.X( aaa var="choice3" type="$_POST" exe="./view.py $username $stream $next 100 0 $sort" header="Location: choose.php? username=$username&stream=$stream&status=&next=$next&sort=$sort" )
+.X( var="choice4" type="$_POST" exe="./view.py $username $stream $next 100 1 $sort" header="" )
+.X( var="choice6" type="$_POST" exe="" header="Location: view.php? username=$username&stream=$stream&status=$status&next=$next&sort=$sort" )
+.X( var="choice7" type="$_POST" exe="" header="Location: view2.php? username=$username&stream=$stream&status=$status&next=$next&sort=$sort" eee )
+
+.n()
+.n()
+
+.E(num="7" value="sort")
+.E(num="4" value="mark all read")
+.E(num="5" value="check for new posts")
+.E(num="6" value="select new stream")

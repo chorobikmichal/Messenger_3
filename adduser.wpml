@@ -1,0 +1,8 @@
+.h(text="Add User " size=2)
+.d()
+.t(text="<body background='bg.jpg'>")
+.i(action="" text="list the streams:" name="streams" value="add")
+.G( var="username" type="$_GET" )
+.G( var="streams" type="$_POST")
+.X( var="streams" type="$_POST" exe="./addauthor $streams $username " header="" )
+.X( var="streams" type="$_POST" exe="./db 1 $username $streams " header="Location: choose.php? username=$username&streams=$streams&status=$status" )

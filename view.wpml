@@ -1,0 +1,10 @@
+.h(text="View Program" size=2)
+.d()
+
+.t(text="<body background='bg.jpg'>")
+.i(action="" text="choose the stream you want to view:" name="stream"  value="view"")
+
+.G( var="username" type="$_GET" )
+.G( var="stream" type="$_POST" )
+
+.X( var="stream" type="$_POST" exe="./a3 view2" header="Location: view2.php? username=$username&stream=$stream&status=$status&next=0&sort=0" )

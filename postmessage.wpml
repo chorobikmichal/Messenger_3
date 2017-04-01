@@ -1,0 +1,16 @@
+.h(text="Write your message" size=2)
+.d()
+
+.t(text="<body background='bg.jpg'>")
+
+.i(action="" text="stream:" name="stream"  value="post" qqq")
+
+.G( var="username" type="$_GET" )
+
+.G( var="message" type="$_POST" qqq)
+
+.G( var="stream" type="$_POST")
+.X( var="stream" type="$_POST" exe="./post $username $stream $message" header="Location: choose.php? username=$username&streamname=$stream&message=$message&status=$status" )
+
+.X( var="stream" type="$_POST" exe="./db 3 $username $stream $message" header="Location: choose.php? username=$username&streamname=$stream&message=$message&status=$status" )
+

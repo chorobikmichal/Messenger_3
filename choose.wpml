@@ -1,0 +1,27 @@
+.h(text="Choose an Option" size=2)
+.d()
+.t(text="<body background='bg.jpg'>")
+
+.n()
+
+.G( var="username" type="$_GET" )
+
+.1()
+
+.E(num="1" value="add author")
+.E(num="2" value="remove author")
+.E(num="3" value="post message")
+.E(num="4" value="view stream")
+.E(num="5" value="log in as a different user")
+
+.n()
+
+.X( var="choice1" type="$_POST" exe="./a3 adduser" header="Location: adduser.php?username=$username" )
+.X( var="choice2" type="$_POST" exe="./a3 removeuser" header="Location: removeuser.php?username=$username" )
+.X( var="choice3" type="$_POST" exe="./a3 postmessage" header="Location: postmessage.php?username=$username" )
+.X( var="choice4" type="$_POST" exe="./a3 view" header="Location: view.php?username=$username" )
+.X( var="choice5" type="$_POST" exe="" header="Location: index.php" )
+
+.n()
+
+.S()
