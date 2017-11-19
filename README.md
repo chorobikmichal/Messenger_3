@@ -1,6 +1,6 @@
 # Messenger Program
 
-Messenger Program which allows the user to login and add themselves to different message streams and post messages to those streams. Users can also view the message streams and apply settings to those streams such as sorting by date or in alphabetical order or marking all messages as read. As the user reads the streams the website automatically marks different messages as read so that when the user opens a stream again they see the newest unread messages first. Users are only allowed to post and view the streams that they are added into. All data is stored in an SQL database. There is only one PHP file because the rest gets generated as the user browses the website. The template for each webpage is written in a made up language called wpml. 
+Messenging Program which allows the user to login and add themselves to different message streams and post messages to those streams. User can also view message streams and apply settings to those streams such as sorting by date, in alphabetical order or marking all messages as read. As the user reads the streams the website automatically marks different messages as read so that when the user opens a stream again they see the newest unread messages first. Users are only allowed to post and view the streams that they are added into. All data is stored in an SQL database. There is only one PHP file because the rest gets generated as the user browses the website. The template for each webpage is written in a made up language called wpml. 
 
 # Screenshots:
 ## Main screen where user logs in (You can add a new user here too)
@@ -13,3 +13,8 @@ Messenger Program which allows the user to login and add themselves to different
 ![ii4](https://cloud.githubusercontent.com/assets/24882037/25264004/ba594174-2631-11e7-8d76-e5c36159bde8.jpg)
 ## View stream or streams (user is only allowed to view streams that they are added into)
 ![ii3](https://cloud.githubusercontent.com/assets/24882037/25264006/ba669b44-2631-11e7-9da5-d7e6b1d969b4.jpg)
+
+# Examples of the 
+![ex3](https://user-images.githubusercontent.com/24882037/32986563-dd0c68be-cca2-11e7-8c07-44a2a0b2588c.png)
+![ex1](https://user-images.githubusercontent.com/24882037/32986564-dd19004c-cca2-11e7-8b81-d96e2c4c271b.png)
+![ex2](https://user-images.githubusercontent.com/24882037/32986565-dd245cda-cca2-11e7-95d0-5bd1b546db51.png)
