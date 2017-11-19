@@ -2,6 +2,9 @@
 
 Messenging Program which allows the user to login and add themselves to different message streams and post messages to those streams. User can also view message streams and apply settings to those streams such as sorting by date, in alphabetical order or marking all messages as read. As the user reads the streams the website automatically marks different messages as read so that when the user opens a stream again they see the newest unread messages first. Users are only allowed to post and view the streams that they are added into. All data is stored in an SQL database. There is only one PHP file in the repository because the rest gets dynamically generated from made up tags as the user browses the website. Examples of the how the tags work can be seen below.
 
+## Compilation:
+To run this program run the make command in its directory
+
 # Screenshots:
 ## Main screen where user logs in (You can add a new user here too)
 ![ii1](https://cloud.githubusercontent.com/assets/24882037/25264005/ba63e82c-2631-11e7-9b18-15c0f7a53614.jpg)
