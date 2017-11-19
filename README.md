@@ -6,7 +6,7 @@ Messenger Program which allows the user to login and add themselves to different
 ## Main screen where user logs in (You can add a new user here too)
 ![ii1](https://cloud.githubusercontent.com/assets/24882037/25264005/ba63e82c-2631-11e7-9b18-15c0f7a53614.jpg)
 ## User menu 
-![menu](https://user-images.githubusercontent.com/24882037/32986492-afffb918-cca0-11e7-90d2-fe0d134da4f5.png)
+![menu](https://user-images.githubusercontent.com/24882037/32986498-fbec26fe-cca0-11e7-9362-02ea41ac6274.png)
 ## Add user to one or more streams (seperate the names with commas)
 ![ii2](https://cloud.githubusercontent.com/assets/24882037/25264007/ba67f1ce-2631-11e7-8ee9-c6b3fdb02180.jpg)
 ## Write a message to a stream or streams (user is only allowed to post to streams that they are added into)
