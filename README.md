@@ -12,7 +12,7 @@ To run this program run the make command in its directory
 ![menu](https://user-images.githubusercontent.com/24882037/32986498-fbec26fe-cca0-11e7-9362-02ea41ac6274.png)
 ## Add user to one or more streams (separate the names with commas)
 ![ii2](https://cloud.githubusercontent.com/assets/24882037/25264007/ba67f1ce-2631-11e7-8ee9-c6b3fdb02180.jpg)
-## Write a message to a stream or streams (user is only allowed to post to streams that they are added into)
+## Write a message to a stream or streams (each user is only allowed to post to streams that they are added into)
 ![ii4](https://cloud.githubusercontent.com/assets/24882037/25264004/ba594174-2631-11e7-8d76-e5c36159bde8.jpg)
 ## View stream or streams (each user is only allowed to view streams that they are added into)
 ![ii3](https://cloud.githubusercontent.com/assets/24882037/25264006/ba669b44-2631-11e7-9da5-d7e6b1d969b4.jpg)
